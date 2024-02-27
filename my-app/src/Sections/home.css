@@ -1,0 +1,38 @@
+
+
+  
+  .text{
+    /* margin-right: 30px;
+    position: relative;
+    top: 200px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+
+  }
+  
+
+  .hi {
+    font-family: Jost;
+    color: #000000;
+    font-size: larger;
+  }
+  
+  .my-name{
+    font-family: Jost;
+    color: #000000;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }

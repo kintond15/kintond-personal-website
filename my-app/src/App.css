@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.homepage {
+  position: relative;
+}
+
+
+.homepage::before {
+  content: "";
+  background-image: url('./berkeleyscreenshot.png');
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; 
+  z-index: -1;
+}
+
