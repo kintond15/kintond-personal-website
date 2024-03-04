@@ -19,5 +19,53 @@ body {
   bottom: 0px;
   left: 0px; 
   z-index: -1;
+  opacity: 0.5;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.App {
+  position: relative;
+}
+
+.content {
+  /* Your content styles */
+  min-height: 100vh;
+}
+
+.scroll-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 1.5vh;
+  right: 5vh;
+  z-index: 99;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  font-size: 5vh;
+  transition: transform 0.1s linear;
+}
+
+.scroll-to-top-btn:hover {
+  transform: translateY(-7px);
+  transform: scale(1.1);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+
 

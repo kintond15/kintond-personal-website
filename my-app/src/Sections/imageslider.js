@@ -21,9 +21,9 @@ const ImageSlider = ({slides}) => {
     const leftArrowStyles = {
         position: 'absolute',
         top: '50%',
-        transform: 'translate(0, -50%)',
+        transform: 'translate(20%, -50%)',
         left: '32 px',
-        fontSize: '45px',
+        fontSize: '20px',
         color: '#fff',
         zIndex: 1,
         cursor: "pointer",
@@ -32,9 +32,9 @@ const ImageSlider = ({slides}) => {
     const rightArrowStyles = {
         position: 'absolute',
         top: '50%',
-        transform: 'translate(1010%, -50%)',
+        transform: 'translate(2710%, -50%)',
         right: '32 px',
-        fontSize: '45px',
+        fontSize: '20px',
         color: '#fff',
         zIndex: 1,
         cursor: "pointer",
@@ -69,9 +69,8 @@ const ImageSlider = ({slides}) => {
     }
 
     return (
+      
         <div style = {sliderStyles}>
-            <div style = {leftArrowStyles} onClick = {goToPrevious}>←</div>
-            <div style = {rightArrowStyles} onClick = {goToNext}>→</div>
             <div style = {slideStyles} ></div>
             <div style = {dotsContainerStyles}>
                  {slides.map((slide, slideIndex) => (
@@ -85,7 +84,6 @@ const ImageSlider = ({slides}) => {
             ))}
         </div>
     </div>
-
 
     );
 

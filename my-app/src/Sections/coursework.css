@@ -1,0 +1,77 @@
+.coursework-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.classes {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(241, 241, 241, 0.8);
+    height: 600px;
+    width: 120vh;
+}
+
+h2 {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 7vh;
+}
+
+.coursework-page {
+    padding-top: 30px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-header {
+    padding: 50px;
+    cursor: pointer;
+    font-size: 4vh;
+}
+
+
+.dropdown-content {
+    display: flex;
+    position: absolute;
+    top: 68%;
+    width: 120vh;
+    height: 12vh;
+    min-width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none; /* Adjusted to display dropdown content */
+    background: rgba(241, 241, 241, 0.9);
+    transition: opacity 0.3s linear;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+  
+   
+}
+.dropdown-content li {
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
+
+p1 {
+    display: flex;
+    margin-left: 5.1%;
+    margin-top: 7%;
+}
+
+p1 span {
+    font-weight: bold;
+}
+p2 {
+    margin-left: 5.1%;
+}
+p2 span {
+    font-weight: bold;
+}
+

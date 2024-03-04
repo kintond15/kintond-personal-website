@@ -1,0 +1,29 @@
+.about-page {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+
+.background-container {
+    display: flex;
+    justify-content: center;
+    width: 119vh;
+    height: auto;
+    background-color:  rgba(255, 255, 255, 0.8);
+
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 3.5vh;
+    line-height: 7vh;
+    width: 140vh;
+}
+
