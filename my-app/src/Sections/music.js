@@ -1,13 +1,13 @@
 
 import React, { useState } from 'react';
 import "./music.css";
-import SpotifyIcon from '/Users/kintonduong/Desktop/personal-website/my-app/src/spotifylogo.png';
-import YoutubeIcon from '/Users/kintonduong/Desktop/personal-website/my-app/src/youtubelogo.png';
-import TameImpala from "/Users/kintonduong/Desktop/personal-website/my-app/src/tameimpala.png";
-import LilUziVert from "/Users/kintonduong/Desktop/personal-website/my-app/src/liluzivert.png";
-import the1975 from "/Users/kintonduong/Desktop/personal-website/my-app/src/1975.png";
-import Duster from "/Users/kintonduong/Desktop/personal-website/my-app/src/duster.png";
-import TameImpalaAudio from '/Users/kintonduong/Desktop/personal-website/my-app/src/tame impala type beat.mp3';
+import SpotifyIcon from '../assets/spotifylogo.png';
+import YoutubeIcon from '../assets/youtubelogo.png';
+import TameImpala from "../assets/tameimpala.png";
+import LilUziVert from "../assets/liluzivert.png";
+import the1975 from "../assets/1975.png";
+import Duster from "../assets/duster.png";
+import TameImpalaAudio from '../assets/tame impala type beat.mp3';
 
 const Experience = () => {
     const redirectToSpotifyProfile = () => {

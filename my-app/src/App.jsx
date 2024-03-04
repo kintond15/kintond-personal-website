@@ -1,15 +1,15 @@
 import logo from './logo.svg';
-import Navbar from "/Users/kintonduong/Desktop/personal-website/my-app/src/Components/Navbar/navbar"
-import Home from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/home"
-import Coursework from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/coursework.js";
-import About from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/aboutme.js";
-import Experience from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/experience.js";
-import Music from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/music.js";
-import Contact from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/contact.js";
+import Navbar from "./Components/Navbar/navbar.jsx"
+import Home from "./Sections/home.js"
+import Coursework from "./Sections/coursework.js";
+import About from "./Sections/aboutme.js";
+import Experience from "./Sections/experience.js";
+import Music from "./Sections/music.js";
+import Contact from "./Sections/contact.js";
 import React, { useState, useEffect } from 'react';
 
 
-import ImageSlider from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/imageslider.js";
+import ImageSlider from "./Sections/imageslider.js";
 // import {ReactTyped} from "react-typed"
 import './App.css';
 

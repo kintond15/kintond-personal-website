@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import LinkedIn from '/Users/kintonduong/Desktop/personal-website/my-app/src/linkedin.png';
+import LinkedIn from '../assets/linkedin.png';
 
 
 const Contact = () => {

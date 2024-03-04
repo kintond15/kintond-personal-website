@@ -1,14 +1,17 @@
 import React from "react";
 import "./home.css";
 import { TypeAnimation } from 'react-type-animation';
-import ImageSlider from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/imageslider.js";
-import me2 from '/Users/kintonduong/Desktop/personal-website/my-app/src/me2.jpg'
+import ImageSlider from "../Sections/imageslider.js";
+import me2 from '../assets/me2.jpg';
+import me3 from '../assets/me3.png';
+import me1 from '../assets/me1.png';
+
 
 function Home() {
     const slides = [
-        {me2},
-        {url:'/Users/kintonduong/Desktop/personal-website/my-app/public/me1.png'},
-        {url:'/Users/kintonduong/Desktop/personal-website/my-app/public/me3.png'},
+        {url: me2},
+        {url: me1},
+        {url: me3},
 
       ];
       const containerStyles = {
