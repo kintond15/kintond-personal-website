@@ -2,12 +2,14 @@ import React from "react";
 import "./home.css";
 import { TypeAnimation } from 'react-type-animation';
 import ImageSlider from "/Users/kintonduong/Desktop/personal-website/my-app/src/Sections/imageslider.js";
+import me2 from '/Users/kintonduong/Desktop/personal-website/my-app/src/me2.jpg'
 
 function Home() {
     const slides = [
-        {url:'./me2.jpg'},
-        {url:'./me1.png'},
-        {url:'./me3.png'},
+        {me2},
+        {url:'/Users/kintonduong/Desktop/personal-website/my-app/public/me1.png'},
+        {url:'/Users/kintonduong/Desktop/personal-website/my-app/public/me3.png'},
+
       ];
       const containerStyles = {
         width: '600px',
@@ -63,9 +65,6 @@ function Home() {
           <div class = "creation">
             <h4>Created by Kinton Duong</h4>
           </div>
-
-
-    
       </header>
     </div>
   );
