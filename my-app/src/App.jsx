@@ -45,7 +45,7 @@ const ScrollToTopButton = () => {
       onClick={scrollToTop}
       title="Go to top"
     >
-   &#8682;
+   &#8963;
     </button>
   );
 };
@@ -53,26 +53,22 @@ const ScrollToTopButton = () => {
 
 
 const App = () => {
-
-  
-
   return (
-    
-        <div class = "homepage">
-          <Navbar/>
-          <Home/>
-          <About/>
-          <Coursework />
-          <Experience/>
-          <Music/>
-          <Contact/>
-          
-          <ScrollToTopButton />
-        </div>
-  
-       
-
+    <div className="homepage">
+      <div className="image-background">
+      <Navbar/>
+        <Home/>
+        <About/>
+      </div>
+      <div className="grainy-background">
+        <Experience/>
+        <Coursework/>
+        <Music/>
+        <Contact/>
+      </div>
+      <ScrollToTopButton />
+    </div>
   );
 }
-
 export default App;
+

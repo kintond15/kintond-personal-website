@@ -4,7 +4,7 @@
     align-items: center;
     margin: 40px 120px;
     color: black;
- 
+
 
 }
 
@@ -12,6 +12,7 @@
     font-family: Jost;
     font-size: 42px;
     font-weight: 500;
+    cursor: pointer;
 
 }
 
@@ -20,7 +21,8 @@
     align-items: center;
     list-style: none;
     font-size: 18px;
-    gap: 90px;
+    gap: 2vh;
+    margin-top: 4vh;
 }
 
 .nav-Resume {
@@ -32,12 +34,31 @@
 
 }
 
+
 .nav-item {
-    text-decoration: none; /* Remove underline */
-    color: black; /* Set color */
-    cursor: pointer; /* Show pointer cursor on hover */
-    /* Add any other styling you want for the navbar items */
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 10px 20px;
 }
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.4s;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
 
 
 

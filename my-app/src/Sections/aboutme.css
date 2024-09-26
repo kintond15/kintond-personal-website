@@ -1,29 +1,47 @@
 .about-page {
-    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10vh;
-}
+    width: 100%; /* Full width to center content */
+    height: 100vh; /* Adjust or remove this based on your layout needs */
+    margin-top: 5%;
 
+}
 
 .background-container {
     display: flex;
     justify-content: center;
-    width: 119vh;
-    height: auto;
-    background-color:  rgba(255, 255, 255, 0.8);
-
+    align-items: center;
+    width: 60%; /* Maintains the original width */
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Initial subtle shadow */
+    transform: scale(1); /* Initial scale */
 }
+
+.background-container:hover {
+    transform: scale(1.005); /* Slightly larger scale on hover */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* More pronounced shadow on hover */
+    cursor: pointer; /* Change cursor to indicate interactiveness */
+}
+
 
 .aboutme {
-    display: flex;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    text-align: center; /* Centers the text within the container */
+    margin: 0; /* Remove any default margins that might disrupt centering */
     font-size: 2.5vh;
     line-height: 7vh;
-    width: 140vh;
+    width: 80%; /* Adjust or remove based on your content needs */
+    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+    opacity: 0;
+    transform: translateY(20px);
 }
 
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

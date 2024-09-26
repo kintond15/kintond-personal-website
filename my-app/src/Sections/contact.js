@@ -5,6 +5,8 @@ import LinkedIn from '../assets/linkedin.png';
 
 const Contact = () => {
 
+    
+
     const redirectToLinkedIn = () => {
         window.open('https://www.linkedin.com/in/kinton-duong-027b4b165/', '_blank');
 
@@ -19,7 +21,7 @@ const Contact = () => {
     return (
         
         <div id="contact" className="contact-page">
-            <h2 id="contactheader">Contact</h2>
+            <h2 id="contactheader">Let's Connect!</h2>
 
                  <div class = "contacts">
                     <div class = "linkedin-icon">
@@ -43,6 +45,9 @@ const Contact = () => {
                         </button>
                     </div>
                 </div>
+
+
+                <p> Created by Kinton Duong</p>
 
             </div>
 

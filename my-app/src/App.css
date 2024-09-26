@@ -5,22 +5,48 @@ body {
 
 
 .homepage {
+  background-color:transparent;
   position: relative;
 }
 
-
-.homepage::before {
-  content: "";
-  background-image: url('./berkeleyscreenshot.png');
-  background-size: cover;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px; 
-  z-index: -1;
-  opacity: 0.5;
+.image-background {
+  position: relative; /* Required for proper positioning of the pseudo-element */
+  margin-top: -4.5vh;
 }
+
+.image-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./berkeleyscreenshot.png'); /* Ensure this path is correct */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the image fixed during scroll */
+  opacity: 0.7; /* Adjust opacity as needed */
+  z-index: -1; /* Ensures the image stays behind the content */
+}
+
+/* Ensure other content is above the background image */
+.image-background > * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.grainy-background {
+  background: url('./whitebackground4k.jpg'); /* Path to your grainy texture */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Scrolls with the content */
+}
+
+/* You may want to adjust other styles like padding, margin, etc., as needed */
+
+
 
 html {
   scroll-behavior: smooth;

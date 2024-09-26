@@ -66,7 +66,6 @@ function Home() {
           </div>
 
           <div class = "creation">
-            <h4>Created by Kinton Duong</h4>
           </div>
       </header>
     </div>
