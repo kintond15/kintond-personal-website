@@ -33,7 +33,7 @@ const AboutMe = () => {
             <div ref={aboutRef} className={isVisible ? "background-container visible" : "background-container"}>
                 <div className={isVisible ? "aboutme visible" : "aboutme"}>
                     <p>
-                        I'm an undergraduate student at UC Berkeley majoring in Computer Science. I am passionate about tech for social impact and anything ranging from full-stack development to machine learning, but I'm always interested in exploring new tech niches. In my free time, I love to make music, go to the gym, and cook. Feel free to continue scrolling to learn about my technical experiences and my music!
+                        I'm an undergraduate student at UC Berkeley majoring in Computer Science. I am passionate about tech for social impact and anything ranging from full-stack development to machine learning, but I'm always interested in exploring tech fields and expanding my tech stack. In my free time, I love to make music, go to the gym, and cook. Feel free to continue scrolling to learn about my technical experiences and my music!
                     </p>
                 </div>
             </div>
